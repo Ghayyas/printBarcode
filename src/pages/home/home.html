@@ -11,4 +11,13 @@
   <p>
     If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
   </p>
+
+  <div padding>
+    <button ion-button (click)="showBarcode()">Show my Barcode</button>
+    <canvas id="barcode"></canvas>
+
+    <button ion-button (click)="printBarcode()">Print My Bar code</button>
+
+  </div>
+
 </ion-content>
